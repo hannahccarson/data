@@ -1,3 +1,11 @@
 import numpy as np
 import pandas as pd
+import matplotlib.pyplot as plt
+from matplotlib import rcParams
+import seaborn as sb
 
+%matplotlib inline
+
+address = data/poll-quiz-guns/guns-polls.csv
+gunpolls = pd.read_csv(address)
+gunpolls.head()
